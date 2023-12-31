@@ -28,6 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@headlessui/react", "virtual:3ebb77fa2a9a4642b9c216237e2d8be340edd27f8c2ff30979d6ba5849e0344691e307ae2b648282a821d7ca81b53ef95d272c03cacc944d789b1e9eb22cee84#npm:1.7.17"],\
             ["@types/node", "npm:20.10.6"],\
             ["@types/react", "npm:18.2.46"],\
             ["@types/react-dom", "npm:18.2.18"],\
@@ -51,6 +52,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@alloc-quick-lru-npm-5.2.0-eb83517088-bdc35758b5.zip/node_modules/@alloc/quick-lru/",\
           "packageDependencies": [\
             ["@alloc/quick-lru", "npm:5.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@headlessui/react", [\
+        ["npm:1.7.17", {\
+          "packageLocation": "./.yarn/cache/@headlessui-react-npm-1.7.17-c3f120aed0-0cdb67747e.zip/node_modules/@headlessui/react/",\
+          "packageDependencies": [\
+            ["@headlessui/react", "npm:1.7.17"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:3ebb77fa2a9a4642b9c216237e2d8be340edd27f8c2ff30979d6ba5849e0344691e307ae2b648282a821d7ca81b53ef95d272c03cacc944d789b1e9eb22cee84#npm:1.7.17", {\
+          "packageLocation": "./.yarn/__virtual__/@headlessui-react-virtual-15403aa7f4/0/cache/@headlessui-react-npm-1.7.17-c3f120aed0-0cdb67747e.zip/node_modules/@headlessui/react/",\
+          "packageDependencies": [\
+            ["@headlessui/react", "virtual:3ebb77fa2a9a4642b9c216237e2d8be340edd27f8c2ff30979d6ba5849e0344691e307ae2b648282a821d7ca81b53ef95d272c03cacc944d789b1e9eb22cee84#npm:1.7.17"],\
+            ["@types/react", "npm:18.2.46"],\
+            ["@types/react-dom", "npm:18.2.18"],\
+            ["client-only", "npm:0.0.1"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:3ebb77fa2a9a4642b9c216237e2d8be340edd27f8c2ff30979d6ba5849e0344691e307ae2b648282a821d7ca81b53ef95d272c03cacc944d789b1e9eb22cee84#npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2120,6 +2148,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["pricewise", "workspace:."],\
+            ["@headlessui/react", "virtual:3ebb77fa2a9a4642b9c216237e2d8be340edd27f8c2ff30979d6ba5849e0344691e307ae2b648282a821d7ca81b53ef95d272c03cacc944d789b1e9eb22cee84#npm:1.7.17"],\
             ["@types/node", "npm:20.10.6"],\
             ["@types/react", "npm:18.2.46"],\
             ["@types/react-dom", "npm:18.2.18"],\
