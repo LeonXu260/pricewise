@@ -37,6 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cheerio", "npm:1.0.0-rc.12"],\
             ["mongoose", "npm:8.0.3"],\
             ["next", "virtual:3ebb77fa2a9a4642b9c216237e2d8be340edd27f8c2ff30979d6ba5849e0344691e307ae2b648282a821d7ca81b53ef95d272c03cacc944d789b1e9eb22cee84#npm:14.0.4"],\
+            ["nodemailer", "npm:6.9.8"],\
             ["postcss", "npm:8.4.32"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:3ebb77fa2a9a4642b9c216237e2d8be340edd27f8c2ff30979d6ba5849e0344691e307ae2b648282a821d7ca81b53ef95d272c03cacc944d789b1e9eb22cee84#npm:18.2.0"],\
@@ -1850,6 +1851,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["nodemailer", [\
+        ["npm:6.9.8", {\
+          "packageLocation": "./.yarn/cache/nodemailer-npm-6.9.8-4424dfebf2-6499b93b70.zip/node_modules/nodemailer/",\
+          "packageDependencies": [\
+            ["nodemailer", "npm:6.9.8"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["nopt", [\
         ["npm:7.2.0", {\
           "packageLocation": "./.yarn/cache/nopt-npm-7.2.0-dd734b678d-a9c0f57fb8.zip/node_modules/nopt/",\
@@ -2157,6 +2167,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cheerio", "npm:1.0.0-rc.12"],\
             ["mongoose", "npm:8.0.3"],\
             ["next", "virtual:3ebb77fa2a9a4642b9c216237e2d8be340edd27f8c2ff30979d6ba5849e0344691e307ae2b648282a821d7ca81b53ef95d272c03cacc944d789b1e9eb22cee84#npm:14.0.4"],\
+            ["nodemailer", "npm:6.9.8"],\
             ["postcss", "npm:8.4.32"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:3ebb77fa2a9a4642b9c216237e2d8be340edd27f8c2ff30979d6ba5849e0344691e307ae2b648282a821d7ca81b53ef95d272c03cacc944d789b1e9eb22cee84#npm:18.2.0"],\

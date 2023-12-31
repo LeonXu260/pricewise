@@ -1552,6 +1552,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nodemailer@npm:^6.9.8":
+  version: 6.9.8
+  resolution: "nodemailer@npm:6.9.8"
+  checksum: 6499b93b7070a1b789ec00681ccbbf34180f127f1ce455b28201584b0974086a86be858062d41044df72ed7aba5649a40321a8e926367d2a1dfc0e65b7bf8838
+  languageName: node
+  linkType: hard
+
 "nopt@npm:^7.0.0":
   version: 7.2.0
   resolution: "nopt@npm:7.2.0"
@@ -1785,6 +1792,7 @@ __metadata:
     cheerio: ^1.0.0-rc.12
     mongoose: ^8.0.3
     next: 14.0.4
+    nodemailer: ^6.9.8
     postcss: ^8
     react: ^18
     react-dom: ^18
