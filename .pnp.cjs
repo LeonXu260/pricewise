@@ -30,6 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@headlessui/react", "virtual:3ebb77fa2a9a4642b9c216237e2d8be340edd27f8c2ff30979d6ba5849e0344691e307ae2b648282a821d7ca81b53ef95d272c03cacc944d789b1e9eb22cee84#npm:1.7.17"],\
             ["@types/node", "npm:20.10.6"],\
+            ["@types/nodemailer", "npm:6.4.14"],\
             ["@types/react", "npm:18.2.46"],\
             ["@types/react-dom", "npm:18.2.18"],\
             ["autoprefixer", "virtual:3ebb77fa2a9a4642b9c216237e2d8be340edd27f8c2ff30979d6ba5849e0344691e307ae2b648282a821d7ca81b53ef95d272c03cacc944d789b1e9eb22cee84#npm:10.4.16"],\
@@ -338,6 +339,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@types/node", "npm:20.10.6"],\
             ["undici-types", "npm:5.26.5"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/nodemailer", [\
+        ["npm:6.4.14", {\
+          "packageLocation": "./.yarn/cache/@types-nodemailer-npm-6.4.14-03cb75dde7-5f61f01dd7.zip/node_modules/@types/nodemailer/",\
+          "packageDependencies": [\
+            ["@types/nodemailer", "npm:6.4.14"],\
+            ["@types/node", "npm:20.10.6"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2160,6 +2171,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["pricewise", "workspace:."],\
             ["@headlessui/react", "virtual:3ebb77fa2a9a4642b9c216237e2d8be340edd27f8c2ff30979d6ba5849e0344691e307ae2b648282a821d7ca81b53ef95d272c03cacc944d789b1e9eb22cee84#npm:1.7.17"],\
             ["@types/node", "npm:20.10.6"],\
+            ["@types/nodemailer", "npm:6.4.14"],\
             ["@types/react", "npm:18.2.46"],\
             ["@types/react-dom", "npm:18.2.18"],\
             ["autoprefixer", "virtual:3ebb77fa2a9a4642b9c216237e2d8be340edd27f8c2ff30979d6ba5849e0344691e307ae2b648282a821d7ca81b53ef95d272c03cacc944d789b1e9eb22cee84#npm:10.4.16"],\
